@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3FE504A272889C8005337F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE5049272889C8005337F2 /* AppDelegate.swift */; };
+		C3FE504E272889C8005337F2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C3FE504C272889C8005337F2 /* Main.html */; };
+		C3FE5050272889C8005337F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3FE504F272889C8005337F2 /* Icon.png */; };
+		C3FE5052272889C8005337F2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5051272889C8005337F2 /* Style.css */; };
+		C3FE5054272889C8005337F2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5053272889C8005337F2 /* Script.js */; };
+		C3FE5056272889C8005337F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE5055272889C8005337F2 /* ViewController.swift */; };
+		C3FE5059272889C8005337F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5057272889C8005337F2 /* Main.storyboard */; };
+		C3FE505B272889C8005337F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FE505A272889C8005337F2 /* Assets.xcassets */; };
+		C3FE5067272889C8005337F2 /* autorefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE5066272889C8005337F2 /* autorefreshTests.swift */; };
+		C3FE5071272889C9005337F2 /* autorefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE5070272889C9005337F2 /* autorefreshUITests.swift */; };
+		C3FE5073272889C9005337F2 /* autorefreshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE5072272889C9005337F2 /* autorefreshUITestsLaunchTests.swift */; };
+		C3FE5079272889C9005337F2 /* autorefresh Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3FE5078272889C9005337F2 /* autorefresh Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3FE507E272889C9005337F2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FE507D272889C9005337F2 /* SafariWebExtensionHandler.swift */; };
+		C3FE5081272889C9005337F2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5080272889C9005337F2 /* _locales */; };
+		C3FE5083272889C9005337F2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5082272889C9005337F2 /* images */; };
+		C3FE5085272889C9005337F2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5084272889C9005337F2 /* manifest.json */; };
+		C3FE5087272889C9005337F2 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5086272889C9005337F2 /* background.js */; };
+		C3FE5089272889C9005337F2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C3FE5088272889C9005337F2 /* content.js */; };
+		C3FE508B272889C9005337F2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C3FE508A272889C9005337F2 /* popup.html */; };
+		C3FE508D272889C9005337F2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C3FE508C272889C9005337F2 /* popup.css */; };
+		C3FE508F272889C9005337F2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C3FE508E272889C9005337F2 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3FE5063272889C8005337F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FE503E272889C8005337F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FE5045272889C8005337F2;
+			remoteInfo = autorefresh;
+		};
+		C3FE506D272889C9005337F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FE503E272889C8005337F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FE5045272889C8005337F2;
+			remoteInfo = autorefresh;
+		};
+		C3FE507A272889C9005337F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FE503E272889C8005337F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FE5077272889C9005337F2;
+			remoteInfo = "autorefresh Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3FE5097272889C9005337F2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3FE5079272889C9005337F2 /* autorefresh Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3FE5046272889C8005337F2 /* autorefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autorefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE5049272889C8005337F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3FE504D272889C8005337F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C3FE504F272889C8005337F2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C3FE5051272889C8005337F2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C3FE5053272889C8005337F2 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C3FE5055272889C8005337F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3FE5058272889C8005337F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3FE505A272889C8005337F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3FE505C272889C8005337F2 /* autorefresh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autorefresh.entitlements; sourceTree = "<group>"; };
+		C3FE505D272889C8005337F2 /* autorefresh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autorefresh.entitlements; sourceTree = "<group>"; };
+		C3FE5062272889C8005337F2 /* autorefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autorefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE5066272889C8005337F2 /* autorefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autorefreshTests.swift; sourceTree = "<group>"; };
+		C3FE506C272889C9005337F2 /* autorefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autorefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE5070272889C9005337F2 /* autorefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autorefreshUITests.swift; sourceTree = "<group>"; };
+		C3FE5072272889C9005337F2 /* autorefreshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autorefreshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3FE5078272889C9005337F2 /* autorefresh Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "autorefresh Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FE507D272889C9005337F2 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C3FE5080272889C9005337F2 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C3FE5082272889C9005337F2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C3FE5084272889C9005337F2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C3FE5086272889C9005337F2 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		C3FE5088272889C9005337F2 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C3FE508A272889C9005337F2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		C3FE508C272889C9005337F2 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		C3FE508E272889C9005337F2 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		C3FE5090272889C9005337F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FE5091272889C9005337F2 /* autorefresh_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autorefresh_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FE5043272889C8005337F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE505F272889C8005337F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE5069272889C8005337F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE5075272889C9005337F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3FE503D272889C8005337F2 = {
+			isa = PBXGroup;
+			children = (
+				C3FE5048272889C8005337F2 /* autorefresh */,
+				C3FE5065272889C8005337F2 /* autorefreshTests */,
+				C3FE506F272889C9005337F2 /* autorefreshUITests */,
+				C3FE507C272889C9005337F2 /* autorefresh Extension */,
+				C3FE5047272889C8005337F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3FE5047272889C8005337F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE5046272889C8005337F2 /* autorefresh.app */,
+				C3FE5062272889C8005337F2 /* autorefreshTests.xctest */,
+				C3FE506C272889C9005337F2 /* autorefreshUITests.xctest */,
+				C3FE5078272889C9005337F2 /* autorefresh Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FE5048272889C8005337F2 /* autorefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE5049272889C8005337F2 /* AppDelegate.swift */,
+				C3FE5055272889C8005337F2 /* ViewController.swift */,
+				C3FE5057272889C8005337F2 /* Main.storyboard */,
+				C3FE505A272889C8005337F2 /* Assets.xcassets */,
+				C3FE505C272889C8005337F2 /* autorefresh.entitlements */,
+				C3FE505D272889C8005337F2 /* autorefresh.entitlements */,
+				C3FE504B272889C8005337F2 /* Resources */,
+			);
+			path = autorefresh;
+			sourceTree = "<group>";
+		};
+		C3FE504B272889C8005337F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE504C272889C8005337F2 /* Main.html */,
+				C3FE504F272889C8005337F2 /* Icon.png */,
+				C3FE5051272889C8005337F2 /* Style.css */,
+				C3FE5053272889C8005337F2 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3FE5065272889C8005337F2 /* autorefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE5066272889C8005337F2 /* autorefreshTests.swift */,
+			);
+			path = autorefreshTests;
+			sourceTree = "<group>";
+		};
+		C3FE506F272889C9005337F2 /* autorefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE5070272889C9005337F2 /* autorefreshUITests.swift */,
+				C3FE5072272889C9005337F2 /* autorefreshUITestsLaunchTests.swift */,
+			);
+			path = autorefreshUITests;
+			sourceTree = "<group>";
+		};
+		C3FE507C272889C9005337F2 /* autorefresh Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE507D272889C9005337F2 /* SafariWebExtensionHandler.swift */,
+				C3FE5090272889C9005337F2 /* Info.plist */,
+				C3FE5091272889C9005337F2 /* autorefresh_Extension.entitlements */,
+				C3FE507F272889C9005337F2 /* Resources */,
+			);
+			path = "autorefresh Extension";
+			sourceTree = "<group>";
+		};
+		C3FE507F272889C9005337F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3FE5080272889C9005337F2 /* _locales */,
+				C3FE5082272889C9005337F2 /* images */,
+				C3FE5084272889C9005337F2 /* manifest.json */,
+				C3FE5086272889C9005337F2 /* background.js */,
+				C3FE5088272889C9005337F2 /* content.js */,
+				C3FE508A272889C9005337F2 /* popup.html */,
+				C3FE508C272889C9005337F2 /* popup.css */,
+				C3FE508E272889C9005337F2 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3FE5045272889C8005337F2 /* autorefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE5098272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefresh" */;
+			buildPhases = (
+				C3FE5042272889C8005337F2 /* Sources */,
+				C3FE5043272889C8005337F2 /* Frameworks */,
+				C3FE5044272889C8005337F2 /* Resources */,
+				C3FE5097272889C9005337F2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FE507B272889C9005337F2 /* PBXTargetDependency */,
+			);
+			name = autorefresh;
+			productName = autorefresh;
+			productReference = C3FE5046272889C8005337F2 /* autorefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FE5061272889C8005337F2 /* autorefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE509B272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefreshTests" */;
+			buildPhases = (
+				C3FE505E272889C8005337F2 /* Sources */,
+				C3FE505F272889C8005337F2 /* Frameworks */,
+				C3FE5060272889C8005337F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FE5064272889C8005337F2 /* PBXTargetDependency */,
+			);
+			name = autorefreshTests;
+			productName = autorefreshTests;
+			productReference = C3FE5062272889C8005337F2 /* autorefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3FE506B272889C8005337F2 /* autorefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE509E272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefreshUITests" */;
+			buildPhases = (
+				C3FE5068272889C8005337F2 /* Sources */,
+				C3FE5069272889C8005337F2 /* Frameworks */,
+				C3FE506A272889C8005337F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FE506E272889C9005337F2 /* PBXTargetDependency */,
+			);
+			name = autorefreshUITests;
+			productName = autorefreshUITests;
+			productReference = C3FE506C272889C9005337F2 /* autorefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C3FE5077272889C9005337F2 /* autorefresh Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FE5094272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefresh Extension" */;
+			buildPhases = (
+				C3FE5074272889C9005337F2 /* Sources */,
+				C3FE5075272889C9005337F2 /* Frameworks */,
+				C3FE5076272889C9005337F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "autorefresh Extension";
+			productName = "autorefresh Extension";
+			productReference = C3FE5078272889C9005337F2 /* autorefresh Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3FE503E272889C8005337F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C3FE5045272889C8005337F2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C3FE5061272889C8005337F2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C3FE5045272889C8005337F2;
+					};
+					C3FE506B272889C8005337F2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C3FE5045272889C8005337F2;
+					};
+					C3FE5077272889C9005337F2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C3FE5041272889C8005337F2 /* Build configuration list for PBXProject "autorefresh" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3FE503D272889C8005337F2;
+			productRefGroup = C3FE5047272889C8005337F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3FE5045272889C8005337F2 /* autorefresh */,
+				C3FE5061272889C8005337F2 /* autorefreshTests */,
+				C3FE506B272889C8005337F2 /* autorefreshUITests */,
+				C3FE5077272889C9005337F2 /* autorefresh Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3FE5044272889C8005337F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE5050272889C8005337F2 /* Icon.png in Resources */,
+				C3FE5059272889C8005337F2 /* Main.storyboard in Resources */,
+				C3FE5054272889C8005337F2 /* Script.js in Resources */,
+				C3FE504E272889C8005337F2 /* Main.html in Resources */,
+				C3FE505B272889C8005337F2 /* Assets.xcassets in Resources */,
+				C3FE5052272889C8005337F2 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE5060272889C8005337F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE506A272889C8005337F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE5076272889C9005337F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE5087272889C9005337F2 /* background.js in Resources */,
+				C3FE508D272889C9005337F2 /* popup.css in Resources */,
+				C3FE508B272889C9005337F2 /* popup.html in Resources */,
+				C3FE5083272889C9005337F2 /* images in Resources */,
+				C3FE5085272889C9005337F2 /* manifest.json in Resources */,
+				C3FE5081272889C9005337F2 /* _locales in Resources */,
+				C3FE5089272889C9005337F2 /* content.js in Resources */,
+				C3FE508F272889C9005337F2 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FE5042272889C8005337F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE5056272889C8005337F2 /* ViewController.swift in Sources */,
+				C3FE504A272889C8005337F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE505E272889C8005337F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE5067272889C8005337F2 /* autorefreshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE5068272889C8005337F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE5071272889C9005337F2 /* autorefreshUITests.swift in Sources */,
+				C3FE5073272889C9005337F2 /* autorefreshUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FE5074272889C9005337F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FE507E272889C9005337F2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3FE5064272889C8005337F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FE5045272889C8005337F2 /* autorefresh */;
+			targetProxy = C3FE5063272889C8005337F2 /* PBXContainerItemProxy */;
+		};
+		C3FE506E272889C9005337F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FE5045272889C8005337F2 /* autorefresh */;
+			targetProxy = C3FE506D272889C9005337F2 /* PBXContainerItemProxy */;
+		};
+		C3FE507B272889C9005337F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FE5077272889C9005337F2 /* autorefresh Extension */;
+			targetProxy = C3FE507A272889C9005337F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3FE504C272889C8005337F2 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FE504D272889C8005337F2 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C3FE5057272889C8005337F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3FE5058272889C8005337F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3FE5092272889C9005337F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3FE5093272889C9005337F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C3FE5095272889C9005337F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "autorefresh Extension/autorefresh_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "autorefresh Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "autorefresh Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefresh.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3FE5096272889C9005337F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "autorefresh Extension/autorefresh_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "autorefresh Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "autorefresh Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefresh.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C3FE5099272889C9005337F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = autorefresh/autorefresh.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = autorefresh;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3FE509A272889C9005337F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = autorefresh/autorefresh.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = autorefresh;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C3FE509C272889C9005337F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autorefresh.app/Contents/MacOS/autorefresh";
+			};
+			name = Debug;
+		};
+		C3FE509D272889C9005337F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autorefresh.app/Contents/MacOS/autorefresh";
+			};
+			name = Release;
+		};
+		C3FE509F272889C9005337F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = autorefresh;
+			};
+			name = Debug;
+		};
+		C3FE50A0272889C9005337F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omnipraxis.autorefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = autorefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3FE5041272889C8005337F2 /* Build configuration list for PBXProject "autorefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE5092272889C9005337F2 /* Debug */,
+				C3FE5093272889C9005337F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE5094272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefresh Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE5095272889C9005337F2 /* Debug */,
+				C3FE5096272889C9005337F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE5098272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE5099272889C9005337F2 /* Debug */,
+				C3FE509A272889C9005337F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE509B272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE509C272889C9005337F2 /* Debug */,
+				C3FE509D272889C9005337F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FE509E272889C9005337F2 /* Build configuration list for PBXNativeTarget "autorefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FE509F272889C9005337F2 /* Debug */,
+				C3FE50A0272889C9005337F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3FE503E272889C8005337F2 /* Project object */;
+}
