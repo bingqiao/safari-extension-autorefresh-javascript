@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 100px;
+    /*width: 100px;*/
     padding: 10px;
 
     font-family: system-ui;
@@ -12,4 +12,11 @@ body {
 
 @media (prefers-color-scheme: dark) {
     /* Dark Mode styles go here. */
+}
+
+.preference {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: .5rem;
 }

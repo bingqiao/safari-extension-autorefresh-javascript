@@ -6,6 +6,14 @@
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <div class="preference">
+        <label for="cb-autorefresh">enabled</label>
+        <input type="checkbox" id="cb-autorefresh" name="enabled" style="margin-left: 10px;">
+    </div>
+    <div class="preference">
+        <label for="n-autorefresh">interval</label>
+        <input type="number" id="n-autorefresh" name="timeout" style="margin-left: 10px;" min="5">
+    </div>
+    <button id="bt-autorefresh">start</button>
 </body>
 </html>

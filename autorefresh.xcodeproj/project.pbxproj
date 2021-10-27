@@ -69,6 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C330D0BC272972B80034D3A3 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		C330D0BD272978970034D3A3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C3FE5046272889C8005337F2 /* autorefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autorefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FE5049272889C8005337F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3FE504D272889C8005337F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -134,6 +136,8 @@
 		C3FE503D272889C8005337F2 = {
 			isa = PBXGroup;
 			children = (
+				C330D0BC272972B80034D3A3 /* readme.md */,
+				C330D0BD272978970034D3A3 /* LICENSE */,
 				C3FE5048272889C8005337F2 /* autorefresh */,
 				C3FE5065272889C8005337F2 /* autorefreshTests */,
 				C3FE506F272889C9005337F2 /* autorefreshUITests */,
@@ -650,7 +654,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = autorefresh;
+				INFOPLIST_KEY_CFBundleDisplayName = AutoRefresh;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -685,7 +690,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = autorefresh;
+				INFOPLIST_KEY_CFBundleDisplayName = AutoRefresh;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;

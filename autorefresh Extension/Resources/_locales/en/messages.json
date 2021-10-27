@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "autorefresh Extension",
+        "message": "AutoRefresh Safari Extension for macOS",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is autorefresh Extension. You should tell us what your extension does here.",
+        "message": "This extension allows auto-refreshing of individual tabs of Safari.",
         "description": "Description of what the extension does."
     }
 }
