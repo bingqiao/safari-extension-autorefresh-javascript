@@ -1,6 +1,11 @@
 var intervalID;
 
+function onError(error) {
+  console.error(`Error: ${error}`);
+}
+
 browser.runtime.sendMessage({ cmd: "settings" }).then((response) => {
+    console.log(new Date().toLocaleString());
     console.log("Received response: ", response);
     if (response.settings.enabled) {
         if (response.settings.tabs[response.tab]) {
@@ -11,7 +16,7 @@ browser.runtime.sendMessage({ cmd: "settings" }).then((response) => {
             intervalID = setInterval(autoRefresh, timeout * 1000);
         }
     }
-});
+}).catch(onError);
 
 function autoRefresh() {
     window.location = window.location.href;
