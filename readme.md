@@ -2,6 +2,8 @@
 
 See article on [Medium](https://medium.com/@bingqiao/safari-auto-refresh-web-extension-javascript-only-sort-of-9298970ec0ac).  
 
+App store [download](https://apps.apple.com/gb/app/autorefresh/id1592466003) (free and no Ads).  
+
 There are a few websites that I visit and that time out after a short period.  
 It started annoying me. There are Safari extensions from App store that enable  
 autorefreshing but none was free. I started looking for my own solutions. 
