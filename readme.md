@@ -1,5 +1,10 @@
 #  Safari Web Extension - AutoRefresh
 
+Please check out the updated projects:
+* [Extension resources project](https://github.com/bingqiao/browser-ext-react-esbuild)
+* [Container Swift project](https://github.com/bingqiao/browser-ext)
+***
+
 See article on [Medium](https://medium.com/@bingqiao/safari-auto-refresh-web-extension-javascript-only-sort-of-9298970ec0ac).  
 
 App store [download](https://apps.apple.com/gb/app/autorefresh/id1592466003) (free and no Ads).  
